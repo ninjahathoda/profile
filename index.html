@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <style>
+        body {
+            background-color: #7187b4; /* Light gray background */
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        header {
+            text-align: center;
+            background-color: #6c5ce7; /* Purple background */
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+        h1 {
+            color: #ffffff; /* White text color */
+            font-size: 2em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow effect */
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 0 10px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+            background-color:pink; /* White background */
+            color: #6c5ce7; /* Purple text color */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+        nav a:hover {
+            background-color: #9c88ff; /* Lighter purple background on hover */
+            color: #ffffff; /* White text color on hover */
+        }
+        .photos-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+            padding: 0 20px;
+        }
+        .photos-container img {
+            width: 45%;
+            max-width: 400px;
+            height:500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Image shadow effect */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Webpage</h1>
+    </header>
+    <nav>
+        <a class="about" href="about.html">ABOUT</a>
+        <a class="contact" href="contact.html">CONTACT</a>
+        <a class="address" href="address.html">ADDRESS</a>
+        <a class="project" href="project.html">PROJECTS</a>
+    </nav>
+    <div class="photos-container">
+        <img src="person2.jpg" alt="Person Image">
+        <img src="person3.jpg" alt="Another Photo">
+        <img src="person1.jpg" alt="Another Photo">
+    </div>
+</body>
+</html>
